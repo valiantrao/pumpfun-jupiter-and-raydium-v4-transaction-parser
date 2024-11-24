@@ -1,0 +1,156 @@
+{
+  "instructions": [
+    {
+      "name": "initialize2",
+      "accounts": [
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "11111111111111111111111111111111"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "SysvarRent111111111111111111111111111111111"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "7ZVVPvHbnWPkGUERhRM5XTorJ8fUNy43AJSVh6wL7x4Y",
+          "name": "amm"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "name": "ammAuthority"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "4fsTagwXKHGxZRLDvk3NQXMexmANhAzasxm5YVuR6d4D",
+          "name": "ammOpenOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "fsuc3L3k6YFdCww6zmvLfnPkfJNDBTtk8uqsMgejf9Q",
+          "name": "lpMintAddress"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "So11111111111111111111111111111111111111112",
+          "name": "coinMintAddress"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "6iu1xiqA25NWDNEkiRTBp2UJNf54RQNcJNWJeqDVpump",
+          "name": "pcMintAddress"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "4MXfbtdxHAHdRPucauRC9Jt5hTpdpgitTGiSiBEN2bQ6",
+          "name": "poolCoinTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Dinv4rw4XELtcMcrwppuFiT29sPiHHcd6otCeApqEeHG",
+          "name": "poolPcTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "9e9a9e5hePfNQLcacrp3ETENxeioL4TEx34WrPd6cha5",
+          "name": "poolWithdrawQueue"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "9DCxsMizn3H1hprZ7xWe6LDzeUeZBksYFpBWBtSf1PQX",
+          "name": "ammTargetOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5",
+          "name": "poolTempLpTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "42AWySzJcDuqWNxhbVKkNY76s8CmhTxXfy42Qf7gYSja",
+          "name": "serumMarket"
+        },
+        {
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg",
+          "name": "userWallet"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6VodurCrwa7QpuRZBzTHGPvYpbR9WFR9iKK3BhVTgP4o",
+          "name": "userTokenCoin"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "GJB7pSeQDHZXtt44yKjgNREExMDqZDFVcJ4bSiw1yogJ",
+          "name": "userTokenPc"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "C8aSFRWvz6ewsB7u9rwxtNAJW9upj3k1PVsHGLHuSJZ7",
+          "name": "userLpTokenAccount"
+        }
+      ],
+      "args": {
+        "nonce": 1,
+        "openTime": 254,
+        "initPcAmount": 52966400000000000,
+        "initCoinAmount": 20225372221952
+      },
+      "programId": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+    }
+  ],
+  "pump_events": [],
+  "jup_events": [],
+  "raydium_log_events": [
+    {
+      "name": "init",
+      "data": {
+        "logType": 0,
+        "time": 0,
+        "pcDecimals": 6,
+        "coinDecimals": 9,
+        "pcLotSize": 100,
+        "coinLotSize": 10000000,
+        "pcAmount": 206900000000000,
+        "coinAmount": 79005360242,
+        "market": "42AWySzJcDuqWNxhbVKkNY76s8CmhTxXfy42Qf7gYSja"
+      }
+    }
+  ],
+  "sign": "xp1EUymLUz9zjrpU85tTUn1PME1eVb7zwJmbvsbsUacSpjSeQSbPtQ1xto1tfw3uVXtqka3cujogw6cQJ6FPzkT"
+}

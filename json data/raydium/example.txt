@@ -1,0 +1,22 @@
+swap events --
+pool 1  -  quote token pool
+pool 2  -  base token pool
+amm                  - pool address
+poolCoinTokenAccount - pool1 address
+poolPcTokenAccount   - pool2 address
+
+
+
+1. swap base In - 
+    if direction - 1
+        pool2 deposit   (means user sent pool 2 mint) 
+        pool1 withdraw  (means user received pool 1 mint)
+        (user swap pool 2 mint to pool 1 mint)
+    
+    if direction - 2
+        pool2 withdraw  (means user received pool 2 mint)
+        pool1 deposit   (means user sent pool 1 mint)
+        (user swap pool 1 mint to pool 2 mint)
+
+2. swap base Out - 
+    if direction - 1

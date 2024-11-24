@@ -1,0 +1,138 @@
+{
+  "instructions": [
+    {
+      "name": "swapBaseIn",
+      "accounts": [
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Cv6xGcB18ZcWF39zNkssKLFEryRRMbu8FH1GaiwN89HM",
+          "name": "amm"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "name": "ammAuthority"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Cwx6b37SRWym1h2jgq9dPHAKtheDUpkAM4ejMRS5L6QA",
+          "name": "ammOpenOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "5UM9scuVbmaxyaMyTykyGFA6PKhetfq38BvrMr8CmY6r",
+          "name": "ammTargetOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "4eW3c3x66acjUZxmzDyScyMGD8h4iS3icmv1r4hrmkkT",
+          "name": "poolCoinTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "DKWXa7K4fqtjkKo9M8ZHPU2Yhuosv1m4LPHk9WTDJkRf",
+          "name": "poolPcTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "CyFpig8SYjz9XoPVXyspaK5sX3Yqz1SNMhaLXT4Y5QFu",
+          "name": "serumMarket"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "9w7G1C6XLXzKwT96u5GZd9izE4xDCf7vFSNFyX84f49d",
+          "name": "serumBids"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "B5UhzqAQSRNJmcectR7dAJ4brTCcP5unniKwAarkFqN5",
+          "name": "serumAsks"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "4LGL3XiqUSGJPMT3386UX9YoPS6P3BoByi333QubxPgm",
+          "name": "serumEventQueue"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6rxMWL5sdpBgWVBiLmgir8C3k5Q4VqhxREzx62CLKcQJ",
+          "name": "serumCoinVaultAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "7BeKPp7muvTEKrgnrExqdEjJDSUTY8qzknHBKBLp4G1x",
+          "name": "serumPcVaultAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "Gog32ayLUdpayixtWMp7Jdoew9DCs6fc69W3RVa5eVX9",
+          "name": "serumVaultSigner"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "3EJ21MCsCs5cnND6Vdvtioi335skVspA98vBNJ5WeiLX",
+          "name": "uerSourceTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "7zbfLvFatC6jZ9jgPNoZmoFt8miU7eWKkRojaPVG2dqF",
+          "name": "uerDestinationTokenAccount"
+        },
+        {
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "D98MRZeXsexJPLhpj2pV5xt4Tiz4Ms8TVXcT9xHzzGab",
+          "name": "userSourceOwner"
+        }
+      ],
+      "args": {
+        "amountIn": 32638910511349770,
+        "minimumAmountOut": 43485681664
+      },
+      "programId": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+    }
+  ],
+  "pump_events": [],
+  "jup_events": [],
+  "raydium_log_events": [
+    {
+      "name": "swapBaseIn",
+      "data": {
+        "logType": 3,
+        "amountIn": 127495744184960,
+        "minimumOut": 169865944,
+        "direction": 2,
+        "userSource": 127495744184960,
+        "poolCoin": 15354833463004786,
+        "poolPc": 2055503657891,
+        "outAmount": 16884938759
+      }
+    }
+  ],
+  "sign": "3r7TwpYt4CByWuQdqhHDY4NrYQz5zXqaV4AwwfipuwJ2CNU52att7wmNk1g55857qHKnRedWWZ8trN9tsfTUKH3N"
+}

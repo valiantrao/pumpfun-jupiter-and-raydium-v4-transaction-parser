@@ -1,0 +1,341 @@
+{
+  "instructions": [
+    {
+      "name": "swapBaseIn",
+      "accounts": [
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "amm"
+        },
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "name": "ammAuthority"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "ammOpenOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "83fCGugRUcaaEPgjqPYQ3pqDF5gS7gX6yfWd1FFZcKnL",
+          "name": "ammTargetOrders"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Hn81hoBVvxwsZWeq94WxFFRePvjVLX1sLzNZyxcMftNi",
+          "name": "poolCoinTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "poolPcTokenAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumMarket"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumBids"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumAsks"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumEventQueue"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumCoinVaultAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm",
+          "name": "serumPcVaultAccount"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "3LY2MG4KdzczydccxLT6i59eJ89C2XLg2AWMyNLCAjBr",
+          "name": "serumVaultSigner"
+        },
+        {
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "FAryceA9YoXHd2pV9bAizkeVAHLXKZfnEQz56y8y58hU",
+          "name": "uerSourceTokenAccount"
+        },
+        {
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "EdsRvZsKaWRNyJTurV3nwoudCF6SjkjpkskKaDdDTEGz",
+          "name": "uerDestinationTokenAccount"
+        }
+      ],
+      "args": {
+        "amountIn": 1587919709961,
+        "minimumAmountOut": 0
+      },
+      "programId": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+    },
+    {
+      "name": "route",
+      "accounts": [
+        {
+          "name": "tokenProgram",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "userTransferAuthority",
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "EdsRvZsKaWRNyJTurV3nwoudCF6SjkjpkskKaDdDTEGz"
+        },
+        {
+          "name": "userSourceTokenAccount",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "3LY2MG4KdzczydccxLT6i59eJ89C2XLg2AWMyNLCAjBr"
+        },
+        {
+          "name": "userDestinationTokenAccount",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "FAryceA9YoXHd2pV9bAizkeVAHLXKZfnEQz56y8y58hU"
+        },
+        {
+          "name": "destinationTokenAccount",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+        },
+        {
+          "name": "destinationMint",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "name": "platformFeeAccount",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+        },
+        {
+          "name": "eventAuthority",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "D8cy77BBepLMngZx6ZukaTff5hCt1HrWyKk3Hnd9oitf"
+        },
+        {
+          "name": "program",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+        },
+        {
+          "name": "Remaining 0",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
+        },
+        {
+          "name": "Remaining 1",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "Remaining 2",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 3",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1"
+        },
+        {
+          "name": "Remaining 4",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 5",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "83fCGugRUcaaEPgjqPYQ3pqDF5gS7gX6yfWd1FFZcKnL"
+        },
+        {
+          "name": "Remaining 6",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Hn81hoBVvxwsZWeq94WxFFRePvjVLX1sLzNZyxcMftNi"
+        },
+        {
+          "name": "Remaining 7",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 8",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 9",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 10",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 11",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 12",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 13",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 14",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "6kG7XyuBteZn7U5yYnpLGhxvgaMii8RuRKfHBBhYEXfm"
+        },
+        {
+          "name": "Remaining 15",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "3LY2MG4KdzczydccxLT6i59eJ89C2XLg2AWMyNLCAjBr"
+        },
+        {
+          "name": "Remaining 16",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "FAryceA9YoXHd2pV9bAizkeVAHLXKZfnEQz56y8y58hU"
+        },
+        {
+          "name": "Remaining 17",
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "EdsRvZsKaWRNyJTurV3nwoudCF6SjkjpkskKaDdDTEGz"
+        }
+      ],
+      "programId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+      "args": {
+        "routePlan": [
+          {
+            "swap": {
+              "raydium": {}
+            },
+            "percent": 100,
+            "inputIndex": 0,
+            "outputIndex": 1
+          }
+        ],
+        "inAmount": 6202811367,
+        "quotedOutAmount": 148311320,
+        "slippageBps": 50,
+        "platformFeeBps": 0
+      }
+    },
+    {
+      "programId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+      "accounts": [
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "D8cy77BBepLMngZx6ZukaTff5hCt1HrWyKk3Hnd9oitf"
+        }
+      ],
+      "args": {
+        "unknown": "5EWlLlHLmh1Axs3oJghx4kvZScQ2AsM/IHeQ7RajUkyhuZdc8SGiqQz/7H34torN33vCTL2RBFQbYsMmK0t1PZcr/BPru/Sav2SJdFE/T/7nY7dxAQAAAAabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABkQHUCAAAAAA="
+      },
+      "name": "unknown"
+    }
+  ],
+  "pump_events": [],
+  "jup_events": [
+    {
+      "data": {
+        "amm": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+        "inputMint": "G3PNSafMsPXXtPaWRUz1gsD2EUUjksdvVbb3emPcKcDT",
+        "inputAmount": 6202811367,
+        "outputMint": "So11111111111111111111111111111111111111112",
+        "outputAmount": 148111761
+      },
+      "name": "SwapEvent"
+    }
+  ],
+  "raydium_log_events": [
+    {
+      "name": "swapBaseIn",
+      "data": {
+        "logType": 3,
+        "amountIn": 6202811367,
+        "minimumOut": 0,
+        "direction": 2,
+        "userSource": 12405622734,
+        "poolCoin": 20504648944864,
+        "poolPc": 490988630718,
+        "outAmount": 148111761
+      }
+    }
+  ],
+  "sign": "4eaERoscaFuoJ4BMJN5dMaXYBoYm9WVpjFiHN97uSqUMV47QdZvpEV7dYrDbbtEm3RbA5CdzmN7F9ducv2GF7KRY"
+}

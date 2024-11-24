@@ -1,0 +1,118 @@
+{
+  "instructions": [
+    {
+      "name": "sell",
+      "accounts": [
+        {
+          "name": "global",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "4wTV1YmiEkRvAtNtsSGPtUrqRYQMe5SKy2uB4Jjaxnjf"
+        },
+        {
+          "name": "feeRecipient",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM"
+        },
+        {
+          "name": "mint",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "pxcH4q953nv1rSAW5kMCbFdeFZdbaDxrV2WREXqpump"
+        },
+        {
+          "name": "bondingCurve",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "EndZ8PTuPhm5n5iEUyP4YxH8KhvcxccwW7HAtj1ax3Wj"
+        },
+        {
+          "name": "associatedBondingCurve",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "BgB8fMi2NfPfjNWxaQyFF5ScSKC3mthJvKcHVqpw8wsa"
+        },
+        {
+          "name": "associatedUser",
+          "isSigner": false,
+          "isWritable": true,
+          "pubkey": "Ao5QGFA9Lij5os4Tof8ea1YeHPsj1AiPUPJ3BzaSkD9o"
+        },
+        {
+          "name": "user",
+          "isSigner": true,
+          "isWritable": true,
+          "pubkey": "9BWpsBg19FUDYwNnR2drTLPnhLsziyQ8aLHA2KE13QVn"
+        },
+        {
+          "name": "systemProgram",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "11111111111111111111111111111111"
+        },
+        {
+          "name": "associatedTokenProgram",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+        },
+        {
+          "name": "tokenProgram",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+        },
+        {
+          "name": "eventAuthority",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "Ce6TQqeHC9p8KetsN6JsjHK7UTZk7nasjjnr7XxXp9F1"
+        },
+        {
+          "name": "program",
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P"
+        }
+      ],
+      "programId": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "args": {
+        "amount": 483978562913,
+        "minSolOutput": 0
+      }
+    },
+    {
+      "programId": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "accounts": [
+        {
+          "isSigner": false,
+          "isWritable": false,
+          "pubkey": "Ce6TQqeHC9p8KetsN6JsjHK7UTZk7nasjjnr7XxXp9F1"
+        }
+      ],
+      "args": {
+        "unknown": "5EWlLlHLmh2923/TTuZh7gxJLKh+oh4H/jIvz4SX0xEBKhGgZuZMam74B/+ko8rPQYZAAQAAAABhzV6vcAAAAAB5jwbrrm8V2G/6BHmjwZg3Je2jdkEyrChODT4UyQUqMc2sJGcAAAAAYUlJswgAAAC6xEqkeQ8DAGGdJbcBAAAAuiw4WOgQAgA="
+      },
+      "name": "unknown"
+    }
+  ],
+  "pump_events": [
+    {
+      "data": {
+        "mint": "pxcH4q953nv1rSAW5kMCbFdeFZdbaDxrV2WREXqpump",
+        "solAmount": 21005889,
+        "tokenAmount": 483978562913,
+        "isBuy": false,
+        "user": "9BWpsBg19FUDYwNnR2drTLPnhLsziyQ8aLHA2KE13QVn",
+        "timestamp": 1730456781,
+        "virtualSolReserves": 37367662945,
+        "virtualTokenReserves": 861440051954874
+      },
+      "name": "TradeEvent"
+    }
+  ],
+  "jup_events": [],
+  "raydium_log_events": [],
+  "sign": "5p8iWANeYe4eYEbJdCne1AEjz9NLtQTdQu6EUZT4Kpo6buwGTyFxBDSufB2pMReUcY4dKgGadb1JrFUPCwxd2BE"
+}
