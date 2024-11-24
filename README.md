@@ -2,17 +2,17 @@
 # Solana Transaction Parser
 
 ## Description
-The **Solana Transaction Parser** is a tool designed to decode and analyze raw Solana transactions. It currently supports parsing transactions for the following protocols:
+The **Solana Transaction Parser** to decode and analyze raw Solana transactions. It currently supports parsing transactions for the following programs:
 - **Pumpfun**
 - **Jupiter**
 - **Raydium v4**
 
 ## How to Use
-The library exports a function `decodeTxn` from `index.js` that can be used to decode raw Solana transactions. 
+It exports a function `decodeTxn` from `index.js` that can be used to decode raw Solana transactions. 
 
 ### Function Signature
 ```javascript
-decodeTxn(rawTransaction: object): DecodedTransaction;
+await decodeTxn(rawTransaction): DecodedTransaction;
 ```
 
 ### Example Usage
@@ -23,7 +23,7 @@ const { decodeTxn } = require('./index.js');
 const rawTransaction = { /* transaction object here */ };
 
 // Decode the transaction
-const decodedData = decodeTxn(rawTransaction);
+const decodedData = await decodeTxn(rawTransaction);
 
 console.log(decodedData);
 ```
