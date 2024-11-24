@@ -89,4 +89,5 @@ The `decodeTxn` function returns a decoded transaction object with the following
 
 Feel free to extend this library to support additional protocols as needed.
 
-TG - @devalexio
+## Contact
+Telegram: [@devalexio](https://t.me/devalexio)
